@@ -1,0 +1,15 @@
+# OS / editor junk
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Runtime data (user trip data — not source)
+trips_data.json
+
+# Local Claude settings (may contain machine-specific or secret values)
+.claude/settings.local.json

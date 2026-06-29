@@ -4,15 +4,15 @@ from typing import Any
 def print_menu() -> None:
     """Print the command-line menu options."""
     print("\nTravel Budget Tracker")
-    print("1. Add a trip")
-    print("2. Add an expense")
-    print("3. View trip summary")
-    print("4. List trips")
-    print("5. Exit")
+    print(">1. Add a trip")
+    print(">2. Add an expense")
+    print(">3. View trip summary")
+    print(">4. List trips")
+    print(">5. Exit")
 
 
 def print_trips(trips: list[dict[str, Any]]) -> None:
-    """Print the list of trips."""
+    """Print the list of trips*******"""
     if not trips:
         print("No trips found.")
         return
